@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kenny&#39;s blog</title>
+  
+  <subtitle>資訊讓生活更便利</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://nenny940904.github.io/"/>
+  <updated>2020-02-07T13:11:59.581Z</updated>
+  <id>https://nenny940904.github.io/</id>
+  
+  <author>
+    <name>Kenny Chen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>想學HEXO搭部落格的人，進來就對了</title>
+    <link href="https://nenny940904.github.io/2020/02/06/second-test-post/"/>
+    <id>https://nenny940904.github.io/2020/02/06/second-test-post/</id>
+    <published>2020-02-06T13:43:20.000Z</published>
+    <updated>2020-02-07T13:11:59.581Z</updated>
+    
+    <content type="html"><![CDATA[<p>活到老，學到老，人活著就是為了學習，學習的動力不就是羨慕跟炫炮嗎?(X<br>科技爆炸的時代，人人早已不是用紙筆來記錄生活的點滴，而是將想法放在BLOG上面。<br>BLOGGER顯得太制式化，WORDPRESS+VPS成本又太高，WIX顯得太過人性化不夠專業。<br>那，HEXO+Gitpage 不是個人部落格最好的選擇嗎?<br>這樣的因緣際會，使我踏上了實現兒時夢想的路。</p><h3 id="優點"><a href="#優點" class="headerlink" title="優點"></a>優點</h3><p>人格一體。<br>沒有付費解說的功能，沒有強制該做的腦殘事情，你想做什麼就做什麼。<br>面對其他服務，使用HEXO簡直就像是脫韁的野馬，但你能夠控制那隻野馬，想衝到哪，就到哪。</p><p>社群豐富。<br>HEXO的官網提供了許多社群主題，且都放在GITHUB上。琳瑯滿目，任君挑選。<br>活耀一點的，HIGHLIGHT還超過3種，你覺得這還不合妳胃口嗎?<br>因為都開源，只要你能力夠，你想改什麼，就改什麼，甚至自己寫一個主題，也不是問題。<br>HEXO的外掛也很多，基本上你想的到的東西，正常的都會有前車之鑑，當然，你也可以自己改。</p><p>速度極快。<br>搭配Node.Js，你不用再苦苦等待，上傳一下，就解決啦。</p><h3 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h3><p>上手較難。<br>如果你對於資訊已經涉略許久了，就可以跳過這點。但如果你是只想寫遊記或者是美食的心得，<br>完全對於資訊不瞭解的話，那右轉去其他能提供社群服務的公司，不然對於一個不是很熟捻的新手<br>，遇到HEXO，BOMB。<br>「那如果我真的很想學該怎麼辦?」</p><h3 id="必備技能"><a href="#必備技能" class="headerlink" title="必備技能"></a>必備技能</h3><p>學會打指令。<br>「指令聽起來好帥喔」包括我，包括全國有用過cmd的人，都覺得那能夠開啟某一個神祕的通道。<br>其實，早在GUI的介面普及之前，大家都是打指令來用電腦，當然，現在為了方便程式開發，<br>還是有許多人除了上網以外都用指令在操作。<br>「那我不就完蛋了?」放心，你學HEXO並不會要你捨棄GUI，只不過你要POST文章，都是用指令在進行。<br>所以其實只要多打，你就會熟悉，面對以後這些東西你也不再是一個懵懂無知的人了，會更快進入狀況。</p><p>會GIT。<br>這太重要啦！因為HEXO是靜態網頁，因此大部分人都會上傳到GITPAGE，這樣你的網頁才會被別人看見<br>你要學會GIT，才能做這些事，GIT是什麼? 簡單來說就是存檔的東西啦，那我們改天再提。<br>你要會這東西，你需要碰更多的指令，還要一點點理解力，當然，你在HEXO李並不會用到那麼多，不過基礎的概念還是要有喔。</p><p>有耐心。<br>面對一堆文件，資料夾，有時候跳一個錯誤，你可能要花上好幾個小時來修復，爬文。<br>記住，在程式的世界中，修錯誤並沒有那麼容易。你要爬一堆文才有可能找到跟你類似情況的人提問。<br>因此，盡量選擇上述提到社群活耀的主題或外掛，不然作者如果沒有再維護，遇到錯誤，你就GG啦！</p><h3 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h3><p>選擇搭建部落格的方式百百種，百百種方式也帶出了百百種不同的部落格。<br>依照自己的需求再去做選擇是創造部落格的不二法則。<br>希望大家看完這篇介紹能夠對於HEXO有更深入的了解，並嘗試去享受它~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;活到老，學到老，人活著就是為了學習，學習的動力不就是羨慕跟炫炮嗎?(X&lt;br&gt;科技爆炸的時代，人人早已不是用紙筆來記錄生活的點滴，而是將想法放在BLOG上面。&lt;br&gt;BLOGGER顯得太制式化，WORDPRESS+VPS成本又太高，WIX顯得太過人性化不夠專業。&lt;br&gt;那，
+      
+    
+    </summary>
+    
+    
+    
+      <category term="talk" scheme="https://nenny940904.github.io/tags/talk/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my_first_post</title>
+    <link href="https://nenny940904.github.io/2020/02/05/my-first-post/"/>
+    <id>https://nenny940904.github.io/2020/02/05/my-first-post/</id>
+    <published>2020-02-05T13:28:34.000Z</published>
+    <updated>2020-02-05T13:28:34.617Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://nenny940904.github.io/2020/02/05/hello-world/"/>
+    <id>https://nenny940904.github.io/2020/02/05/hello-world/</id>
+    <published>2020-02-05T13:27:38.098Z</published>
+    <updated>2020-02-05T13:27:38.098Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
