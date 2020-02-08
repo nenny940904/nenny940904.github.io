@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nenny940904.github.io/"/>
-  <updated>2020-02-08T08:29:11.829Z</updated>
+  <updated>2020-02-08T08:53:53.824Z</updated>
   <id>https://nenny940904.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git commit出現 pathspec &#39;commit&#39;&#39; did not match any file(s)</title>
+    <link href="https://nenny940904.github.io/2020/02/08/git%20commit%E5%95%8F%E9%A1%8C/"/>
+    <id>https://nenny940904.github.io/2020/02/08/git%20commit%E5%95%8F%E9%A1%8C/</id>
+    <published>2020-02-08T13:42:30.000Z</published>
+    <updated>2020-02-08T08:53:53.824Z</updated>
+    
+    <content type="html"><![CDATA[<p>新開的部落格當然需要備份，以免電腦壞掉。備份的時候竟然在git commit 出現error<br>出錯的訊息如上……<a id="more"></a><br>爬了文一下，終於知道問題出在哪了，是個使用者習慣會讓你很幹的問題。</p><h3 id="出錯指令"><a href="#出錯指令" class="headerlink" title="出錯指令:"></a>出錯指令:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">'Initial commit'</span></span><br></pre></td></tr></table></figure><p>乍看起來沒什麼問題吧，的確，我學的git也是這樣教的。<br>那麼，問題出在哪?</p><h3 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法:"></a>解決方法:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">"Initial commit"</span></span><br></pre></td></tr></table></figure><p>「等等..等等…，這不是一樣嗎?」，眼睛利的讀者們，發現引號形式的不同沒。<br>我之前用的是linux，都能通關，但windows就不同啦，要用雙引號包住，不燃會報錯。<br>習慣，真是難改呀~</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;新開的部落格當然需要備份，以免電腦壞掉。備份的時候竟然在git commit 出現error&lt;br&gt;出錯的訊息如上……
+    
+    </summary>
+    
+    
+    
+      <category term="problems,git" scheme="https://nenny940904.github.io/tags/problems-git/"/>
+    
+  </entry>
   
   <entry>
     <title>想學HEXO搭部落格的人，進來就對了</title>
