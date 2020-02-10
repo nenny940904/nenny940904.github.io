@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nenny940904.github.io/"/>
-  <updated>2020-02-08T11:56:41.635Z</updated>
+  <updated>2020-02-10T06:02:33.067Z</updated>
   <id>https://nenny940904.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>markdown語法全制霸！想寫部落格看這篇就夠了！</title>
+    <link href="https://nenny940904.github.io/2020/02/09/markdown/"/>
+    <id>https://nenny940904.github.io/2020/02/09/markdown/</id>
+    <published>2020-02-09T13:10:20.000Z</published>
+    <updated>2020-02-10T06:02:33.067Z</updated>
+    
+    <content type="html"><![CDATA[<p>markdown是一種輕量級的標記語言，你可以在很多地方看到她。舉凡寫email,寫github,寫blog。乍看聽起來很難很專業，但語法就那幾種，剩下的你也不會用到，學起來就可以在很多地方寫出美美的文章啦！<br>基本上要學這種東西就是多練，不用考慮什麼時間複雜度等等……就像理科一樣，代公式就會出來的東西，不學白不學，因此我保證讀者們，絕對能在十分鐘之內搞懂所有東西！<br>你看我的教學可能想說「哇，你這教學太不專業了吧，怎麼一堆深入的東西沒有提到」，有這樣疑問的人，動腦一下，會來看我文章的人就是官網看不懂才來的，如果我再寫那麼深的東西，是要怎麼學得會？如果是很猛的大黑黑來參考我的教學只會傷害你的智商XDD</p><h3 id="使用程式"><a href="#使用程式" class="headerlink" title="使用程式"></a>使用程式</h3><p>這裡是推薦各位使用vscode，已經對md有很好的支持，然後創檔副檔名要改.md才能開始寫。<br>建議大家下載markdownlint做於改善code習慣的小工具，在vscode的這裡下載(如下圖)<br><img src="C:%5CUsers%5Ckenny%5CDesktop%5Chexo%5Cblog%5Cpost_img" alt="avatar"></p><h3 id="語法淺規則"><a href="#語法淺規則" class="headerlink" title="語法淺規則"></a>語法淺規則</h3><p>1.該空格就空格<br>2.該ENTER就ENTER<br>3.易讀易寫為優先</p><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>markdown的標題應該說是白癡都會的，也是每篇文章一定會用到。語法及效果如下</p><h1 id="一級標題"><a href="#一級標題" class="headerlink" title="一級標題"></a>一級標題</h1><h2 id="二級標題"><a href="#二級標題" class="headerlink" title="二級標題"></a>二級標題</h2><h3 id="三級標題"><a href="#三級標題" class="headerlink" title="三級標題"></a>三級標題</h3><h4 id="四級標題"><a href="#四級標題" class="headerlink" title="四級標題"></a>四級標題</h4><h5 id="五級標題"><a href="#五級標題" class="headerlink" title="五級標題"></a>五級標題</h5><h6 id="六級標題"><a href="#六級標題" class="headerlink" title="六級標題"></a>六級標題</h6><p><img src="C:%5CUsers%5Ckenny%5CDesktop%5Chexo%5Cblog%5Cmk_title" alt="avatar"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;markdown是一種輕量級的標記語言，你可以在很多地方看到她。舉凡寫email,寫github,寫blog。乍看聽起來很難很專業，但語法就那幾種，剩下的你也不會用到，學起來就可以在很多地方寫出美美的文章啦！&lt;br&gt;基本上要學這種東西就是多練，不用考慮什麼時間複雜度等等……
+      
+    
+    </summary>
+    
+    
+    
+      <category term="teaching" scheme="https://nenny940904.github.io/tags/teaching/"/>
+    
+      <category term="talk" scheme="https://nenny940904.github.io/tags/talk/"/>
+    
+      <category term="markdown" scheme="https://nenny940904.github.io/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git commit出現 pathspec &#39;commit&#39;&#39; did not match any file(s)</title>
-    <link href="https://nenny940904.github.io/2020/02/08/git%20commit%E5%95%8F%E9%A1%8C/"/>
-    <id>https://nenny940904.github.io/2020/02/08/git%20commit%E5%95%8F%E9%A1%8C/</id>
+    <link href="https://nenny940904.github.io/2020/02/08/git_commit%E5%95%8F%E9%A1%8C/"/>
+    <id>https://nenny940904.github.io/2020/02/08/git_commit%E5%95%8F%E9%A1%8C/</id>
     <published>2020-02-08T13:42:30.000Z</published>
-    <updated>2020-02-08T11:56:41.635Z</updated>
+    <updated>2020-02-09T11:12:06.642Z</updated>
     
     <content type="html"><![CDATA[<p>新開的部落格當然需要備份，以免電腦壞掉。備份的時候竟然在git commit 出現error<br>出錯的訊息如上……<a id="more"></a><br>爬了文一下，終於知道問題出在哪了，是個使用者習慣會讓你很幹的問題。</p><h3 id="出錯指令"><a href="#出錯指令" class="headerlink" title="出錯指令:"></a>出錯指令:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">'Initial commit'</span></span><br></pre></td></tr></table></figure><p>乍看起來沒什麼問題吧，的確，我學的git也是這樣教的。<br>那麼，問題出在哪?</p><h3 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法:"></a>解決方法:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m <span class="string">"Initial commit"</span></span><br></pre></td></tr></table></figure><p>「等等..等等…，這不是一樣嗎?」，眼睛利的讀者們，發現引號形式的不同沒。<br>我之前用的是linux，都能通關，但windows就不同啦，要用雙引號包住，不燃會報錯。<br>習慣，真是難改呀~</p>]]></content>
     
@@ -36,6 +64,8 @@
       <category term="git" scheme="https://nenny940904.github.io/tags/git/"/>
     
       <category term="problem" scheme="https://nenny940904.github.io/tags/problem/"/>
+    
+      <category term="teaching" scheme="https://nenny940904.github.io/tags/teaching/"/>
     
   </entry>
   
