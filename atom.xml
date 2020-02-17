@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nenny940904.github.io/"/>
-  <updated>2020-02-10T06:02:33.067Z</updated>
+  <updated>2020-02-10T14:16:11.515Z</updated>
   <id>https://nenny940904.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://nenny940904.github.io/2020/02/09/markdown/"/>
     <id>https://nenny940904.github.io/2020/02/09/markdown/</id>
     <published>2020-02-09T13:10:20.000Z</published>
-    <updated>2020-02-10T06:02:33.067Z</updated>
+    <updated>2020-02-10T14:16:11.515Z</updated>
     
-    <content type="html"><![CDATA[<p>markdown是一種輕量級的標記語言，你可以在很多地方看到她。舉凡寫email,寫github,寫blog。乍看聽起來很難很專業，但語法就那幾種，剩下的你也不會用到，學起來就可以在很多地方寫出美美的文章啦！<br>基本上要學這種東西就是多練，不用考慮什麼時間複雜度等等……就像理科一樣，代公式就會出來的東西，不學白不學，因此我保證讀者們，絕對能在十分鐘之內搞懂所有東西！<br>你看我的教學可能想說「哇，你這教學太不專業了吧，怎麼一堆深入的東西沒有提到」，有這樣疑問的人，動腦一下，會來看我文章的人就是官網看不懂才來的，如果我再寫那麼深的東西，是要怎麼學得會？如果是很猛的大黑黑來參考我的教學只會傷害你的智商XDD</p><h3 id="使用程式"><a href="#使用程式" class="headerlink" title="使用程式"></a>使用程式</h3><p>這裡是推薦各位使用vscode，已經對md有很好的支持，然後創檔副檔名要改.md才能開始寫。<br>建議大家下載markdownlint做於改善code習慣的小工具，在vscode的這裡下載(如下圖)<br><img src="C:%5CUsers%5Ckenny%5CDesktop%5Chexo%5Cblog%5Cpost_img" alt="avatar"></p><h3 id="語法淺規則"><a href="#語法淺規則" class="headerlink" title="語法淺規則"></a>語法淺規則</h3><p>1.該空格就空格<br>2.該ENTER就ENTER<br>3.易讀易寫為優先</p><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>markdown的標題應該說是白癡都會的，也是每篇文章一定會用到。語法及效果如下</p><h1 id="一級標題"><a href="#一級標題" class="headerlink" title="一級標題"></a>一級標題</h1><h2 id="二級標題"><a href="#二級標題" class="headerlink" title="二級標題"></a>二級標題</h2><h3 id="三級標題"><a href="#三級標題" class="headerlink" title="三級標題"></a>三級標題</h3><h4 id="四級標題"><a href="#四級標題" class="headerlink" title="四級標題"></a>四級標題</h4><h5 id="五級標題"><a href="#五級標題" class="headerlink" title="五級標題"></a>五級標題</h5><h6 id="六級標題"><a href="#六級標題" class="headerlink" title="六級標題"></a>六級標題</h6><p><img src="C:%5CUsers%5Ckenny%5CDesktop%5Chexo%5Cblog%5Cmk_title" alt="avatar"></p>]]></content>
+    <content type="html"><![CDATA[<p>markdown是一種輕量級的標記語言，你可以在很多地方看到她。舉凡寫email,寫github,寫blog。乍看聽起來很難很專業，但語法就那幾種，剩下的你也不會用到，學起來就可以在很多地方寫出美美的文章啦！<br>基本上要學這種東西就是多練，不用考慮什麼時間複雜度等等……就像理科一樣，代公式就會出來的東西，不學白不學，因此我保證讀者們，絕對能在十分鐘之內搞懂所有東西！<br>你看我的教學可能想說「哇，你這教學太不專業了吧，怎麼一堆深入的東西沒有提到」，有這樣疑問的人，動腦一下，會來看我文章的人就是官網看不懂才來的，如果我再寫那麼深的東西，是要怎麼學得會？如果是很猛的大黑黑來參考我的教學只會傷害你的智商XDD</p><h3 id="使用程式及插件"><a href="#使用程式及插件" class="headerlink" title="使用程式及插件"></a>使用程式及插件</h3><p>這裡是推薦各位使用vscode，已經對md有很好的支持，然後創檔副檔名要改.md才能開始寫。<br>建議大家下載markdownlint做於改善code習慣的小工具，在vscode的這裡下載(如下圖)<br><img src="https://img.onl/MKfsA1" alt="avatar"><br>PS. 有時候根本沒有錯誤，他還是會畫黃色底線，就代表你沒有達到易寫的條件，他很煩，但若能遵守他嚴謹的規則，CODE看起來會很舒服！</p><h3 id="語法淺規則"><a href="#語法淺規則" class="headerlink" title="語法淺規則"></a>語法淺規則</h3><p>1.該空格就空格<br>2.該ENTER就ENTER<br>3.易讀易寫為優先</p><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>markdown的標題應該說是白癡都會的，也是每篇文章一定會用到。<br>左邊為code，右邊為輸出結果，如下圖:</p><p><img src="https://img.onl/9LxDGz" alt="avatar"> <img src="https://img.onl/x3XbYJ" alt="avatar"></p><p>有些同學們可能會問「不對阿，我不是照打嗎，阿怎麼沒感覺？」，代表你文章沒仔細看，淺規則的第一點，該空格就空格，你檢查一下你井字號跟標題有沒有以空格區隔，應該就可以了！</p><h3 id="特殊字元"><a href="#特殊字元" class="headerlink" title="特殊字元"></a>特殊字元</h3><p>你應該知道我要說哪句了(X,markdown的特殊字元白癡也一定學得會，不過相對來講就沒那麼重要。<br>左邊為code，右邊為輸出結果，text為你輸入的句子。如下圖:</p><p><img src="https://img.onl/IPYyAj" alt="avarter"> <img src="https://img.onl/iGLO5" alt="avarter"></p><p>給你們學這個是不是侮辱你們的智商=w=，等等會有難的啦！</p><h3 id="插入圖片"><a href="#插入圖片" class="headerlink" title="插入圖片"></a>插入圖片</h3><p>這東西的重要程度僅次於標題，你想一下你在看一篇文章，卻只有滿滿的文字，你看得下去？<br>偏偏的是，我爬文的時候，去看每篇markdown的教學文章，每篇都把這東西放到最後面，更扯的是他的教學竟然沒有圖片！也沒有告訴你連結怎麼放，什麼意思，把定義交代完就走人，害我看得霧煞煞，後來也是自己摸索出來一套最有效率的方法，待會絕不藏私，絕對讓大家一眼就懂！<br>語法如右: </p><p>1.插入圖片起手式: 驚嘆號一律打在最前面，很重要！大家常忘記，包括我。<br>2.代表圖片的文字: 就像這張圖片叫蒙娜麗莎，蒙娜麗莎就是代表圖片的文字。<br>3.圖片的連結: 蒙娜麗莎要去羅浮宮才看的見，羅浮宮就是我們找到那張圖片的連結。</p><p>1,2點沒有問題，這時候有人有問題了「圖片連結我是要怎麼拿到？」，大家幾乎都會卡在這。<br>因此，先給大家一個網站: <a href="https://img.onl/" target="_blank" rel="noopener">magic</a><br>點進去，圖片拉進去，讓子彈飛一下，你會看見這樣，圖片如下:<br><img src="https://img.onl/7Fmj3r" alt="avarter"><br>點copy 你就獲得圖片的連結(羅浮宮)啦！</p>]]></content>
     
     <summary type="html">
     
@@ -66,6 +66,33 @@
       <category term="problem" scheme="https://nenny940904.github.io/tags/problem/"/>
     
       <category term="teaching" scheme="https://nenny940904.github.io/tags/teaching/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>powershell執行ps1檔時出現錯誤</title>
+    <link href="https://nenny940904.github.io/2020/02/06/ps1_problem/"/>
+    <id>https://nenny940904.github.io/2020/02/06/ps1_problem/</id>
+    <published>2020-02-06T13:43:20.000Z</published>
+    <updated>2020-02-17T13:58:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>美化powershell，當然是要敲一些指令到ps1檔裡面。敲完之後run一次竟然報錯啦！<br>看到錯誤，心情就不美麗了，還好只是個安全性問題，一個指令解決一切。</p><h3 id="完整錯誤訊息"><a href="#完整錯誤訊息" class="headerlink" title="完整錯誤訊息"></a>完整錯誤訊息</h3><p>ps1 檔案無法載入，<strong>因為這個系統上已停用指令碼執行</strong>。</p><h3 id="解決指令"><a href="#解決指令" class="headerlink" title="解決指令"></a>解決指令</h3><p>powerline右鍵管理員執行，敲以下指令:</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ExecutionPolicy</span> RemoteSigned</span><br></pre></td></tr></table></figure><p>各位，一定要注意有沒有右鍵，沒有右鍵不成功別怪我啊！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;美化powershell，當然是要敲一些指令到ps1檔裡面。敲完之後run一次竟然報錯啦！&lt;br&gt;看到錯誤，心情就不美麗了，還好只是個安全性問題，一個指令解決一切。&lt;/p&gt;
+&lt;h3 id=&quot;完整錯誤訊息&quot;&gt;&lt;a href=&quot;#完整錯誤訊息&quot; class=&quot;headerlin
+      
+    
+    </summary>
+    
+    
+    
+      <category term="problem" scheme="https://nenny940904.github.io/tags/problem/"/>
+    
+      <category term="windows" scheme="https://nenny940904.github.io/tags/windows/"/>
     
   </entry>
   
