@@ -36,9 +36,9 @@
     
     
     
-      <category term="teaching" scheme="https://nenny940904.github.io/tags/teaching/"/>
-    
       <category term="talk" scheme="https://nenny940904.github.io/tags/talk/"/>
+    
+      <category term="teaching" scheme="https://nenny940904.github.io/tags/teaching/"/>
     
       <category term="markdown" scheme="https://nenny940904.github.io/tags/markdown/"/>
     
@@ -61,11 +61,11 @@
     
     
     
-      <category term="git" scheme="https://nenny940904.github.io/tags/git/"/>
-    
       <category term="problem" scheme="https://nenny940904.github.io/tags/problem/"/>
     
       <category term="teaching" scheme="https://nenny940904.github.io/tags/teaching/"/>
+    
+      <category term="git" scheme="https://nenny940904.github.io/tags/git/"/>
     
   </entry>
   
@@ -90,9 +90,9 @@
     
     
     
-      <category term="problem" scheme="https://nenny940904.github.io/tags/problem/"/>
-    
       <category term="windows" scheme="https://nenny940904.github.io/tags/windows/"/>
+    
+      <category term="problem" scheme="https://nenny940904.github.io/tags/problem/"/>
     
   </entry>
   
