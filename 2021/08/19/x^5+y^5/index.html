@@ -14,11 +14,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="你在算數學的時候，多多少少會出現這種情況，「為什麼我想破頭也算不出來的東西，別人卻一分鐘解決了？」很正常，這就是現實。現實就是有很多人天生比你強，單手就能屌打你。面對這樣的挫折，該用什麼樣的心態去面對呢？">
+  <meta name="description" content="這篇文章主要是在介紹遞迴迭代式的應用，會有公式和範例提供練習。題目可以做更進一步的延伸，且可以複習到一些乘法公式，是個不錯的題目！有其他解法或想法能在下方留言，我會參考看看的。">
   <meta name="author" content="Kenny Chen">
   <meta name="keywords" content="">
   
-  <title>我不是天才，但我偏執的像天才 - Kny的小天地</title>
+  <title>遞迴迭代式的妙用！秒殺二元高次和的利器！ - Kny的小天地</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -164,7 +164,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="我不是天才，但我偏執的像天才">
+            <span class="h2" id="subtitle" title="遞迴迭代式的妙用！秒殺二元高次和的利器！">
               
             </span>
 
@@ -174,8 +174,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-08-17 01:43" pubdate>
-        2021年8月17日 凌晨
+      <time datetime="2021-08-19 02:24" pubdate>
+        2021年8月19日 凌晨
       </time>
     </span>
   
@@ -186,7 +186,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      94 字
+      480 字
     </span>
   
 
@@ -196,7 +196,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      6
        分鐘
     </span>
   
@@ -226,13 +226,20 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">我不是天才，但我偏執的像天才</h1>
+            <h1 style="display: none">遞迴迭代式的妙用！秒殺二元高次和的利器！</h1>
             
             <div class="markdown-body">
-              <p>你在算數學的時候，多多少少會出現這種情況，「為什麼我想破頭也算不出來的東西，別人卻一分鐘解決了？」<br>很正常，這就是現實。現實就是有很多人天生比你強，單手就能屌打你。<br>面對這樣的挫折，該用什麼樣的心態去面對呢？</p>
-<span id="more"></span>
+              <p>這篇文章主要是在介紹遞迴迭代式的應用，會有公式和範例提供練習。<br>題目可以做更進一步的延伸，且可以複習到一些乘法公式，是個不錯的題目！<br>有其他解法或想法能在下方留言，我會參考看看的。<br><span id="more"></span></p>
+<h2 id="公式介紹"><a href="#公式介紹" class="headerlink" title="公式介紹"></a>公式介紹</h2><h3 id="遞迴迭代式"><a href="#遞迴迭代式" class="headerlink" title="遞迴迭代式"></a><center>遞迴迭代式</center></h3><script type="math/tex; mode=display">a^{n+2}+b^{n+2}=(a+b)(a^{n+1}+b^{n+1})-ab(a^n+b^n)</script><h3 id="二元四次和"><a href="#二元四次和" class="headerlink" title="二元四次和"></a><center>二元四次和</center></h3><script type="math/tex; mode=display">a^4+b^4=[(a+b)^2-2ab]^2-2(ab)^2</script><h3 id="二元立方和"><a href="#二元立方和" class="headerlink" title="二元立方和"></a><center>二元立方和</center></h3><script type="math/tex; mode=display">a^3+b^3=(a+b)(a^2-ab+b^2)=(a+b)^3-3ab(a+b)</script><h3 id="二元立方差"><a href="#二元立方差" class="headerlink" title="二元立方差"></a><center>二元立方差</center></h3><script type="math/tex; mode=display">a^3-b^3=(a-b)(a^2+ab+b^2)=(a-b)^3+3ab(a-b)</script><h3 id="二元完全立方和"><a href="#二元完全立方和" class="headerlink" title="二元完全立方和"></a><center>二元完全立方和</center></h3><script type="math/tex; mode=display">(a+b)^3=a^3+3a^2b+3ab^2+b^3=a^3+b^3+3ab(a+b)</script><h3 id="二元完全立方差"><a href="#二元完全立方差" class="headerlink" title="二元完全立方差"></a><center>二元完全立方差</center></h3><script type="math/tex; mode=display">(a-b)^3=a^3-3a^2b+3ab^2-b^3=a^3-b^3-3ab(a-b)</script><h2 id="例題"><a href="#例題" class="headerlink" title="例題"></a>例題</h2><h3 id="若x-y-3-quad-xy-2，則x-5-y-5"><a href="#若x-y-3-quad-xy-2，則x-5-y-5" class="headerlink" title="$$ 若x+y=3 \quad xy=2，則x^5+y^5=? $$"></a><center>$$ 若x+y=3 \quad xy=2，則x^5+y^5=? $$</center></h3><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>看到這種指數大的不得了的題目，秒用遞迴迭代式分解。<br>關鍵是5次方看成3+2的次方，即可用n=3套入公式分解，即為：</p>
+<script type="math/tex; mode=display">x^{3+2}+y^{3+2}=(x+y)(x^4+y^4)-xy(x^3+y^3)</script><p><script type="math/tex">(x^4+y^4)</script> 可用二元四次和分解， <script type="math/tex">(x^3+y^3)</script> 可用完全立方和分解，即為：</p>
+<center>$$ (x+y)\{[(x+y)^2-2xy]^2-2(xy)^2\}-xy[(x+y)^3-3xy(x+y)] $$</center>
 
-<h2 id="登入帳號"><a href="#登入帳號" class="headerlink" title="登入帳號"></a>登入帳號</h2>
+<p>整理完式子之後只需要瘋狂代數字答案就出來了，熟記公式後是不是很容易呢？即為：</p>
+<center>$$ 3[(9-4)^2-8]-2(27-6*3) $$</center>
+
+<p>經過四則運算後答案即為33，成功秒殺掉了這題</p>
+<p><script type="math/tex">(x^6+y^6)</script> 這種更大次方的也能用遞迴迭代式來做，但計算量就不容小覷了！<br>如果有更快或更好的解法大家能踴躍的提供，我相信這題絕對不是唯一解。<br>感謝大家的觀看！</p>
+
             </div>
             <hr>
             <div>
@@ -245,10 +252,6 @@
                       <a class="hover-with-bg" href="/tags/test/">test</a>
                     
                       <a class="hover-with-bg" href="/tags/math/">math</a>
-                    
-                      <a class="hover-with-bg" href="/tags/learn/">learn</a>
-                    
-                      <a class="hover-with-bg" href="/tags/idea/">idea</a>
                     
                   </div>
                 
@@ -292,8 +295,8 @@
     
       <script type="text/javascript">
         var disqus_config = function() {
-          this.page.url = 'https://nenny940904.github.io/2021/08/17/study_module/';
-          this.page.identifier = '/2021/08/17/study_module/';
+          this.page.url = 'https://nenny940904.github.io/2021/08/19/x^5+y^5/';
+          this.page.identifier = '/2021/08/19/x%5E5+y%5E5/';
         };
         Fluid.utils.loadComments('#disqus_thread', function() {
           var d = document, s = d.createElement('script');
@@ -444,6 +447,45 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.4/es5/tex-svg.js" ></script>
+
+  
 
 
 

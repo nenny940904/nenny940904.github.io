@@ -231,8 +231,7 @@
             
             <div class="markdown-body">
               <p>這個系列是教你如何讀懂出題老師的心，讓你猜對的機率提升到7成。</p>
-<p>注意，此方法並非使用正規且正確的解題方式作答，且不保證題題都能使用這種方法答對，只是作為輔助用，還是得擁有一定的解題能力才能順利破題拿下分數。</p>
-<span id="more"></span>
+<p>注意，此方法並非使用正規且正確的解題方式作答，且不保證題題都能使用這種方法答對，只是作為輔助用，還是得擁有一定的解題能力才能順利破題拿下分數。<br><span id="more"></span></p>
 <h2 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h2><p><img src="https://upload.cc/i1/2021/08/07/4EmLVi.jpg" srcset="/img/loading.gif" lazyload alt="題目"></p>
 <h3 id="兩個選項，25個或28個。"><a href="#兩個選項，25個或28個。" class="headerlink" title="兩個選項，25個或28個。"></a>兩個選項，25個或28個。</h3><h2 id="讀心術"><a href="#讀心術" class="headerlink" title="讀心術"></a>讀心術</h2><p>第一眼看到這題目80%的人都會惱羞，「這什麼鬼？最好是能精準每個都選中啦，那麼多重複的一定會亂掉阿」<br>但我告訴你，我看到時我會直接選25個。為什麼呢？且聽我娓娓道來。</p>
 <p>因為超過一半的人很難在第一次就判斷出正確答案，一定會東漏西漏，最後懷疑自己導致無法正確判斷。類似的題目絕對只會少數，不會多數。<br>這種題目很難數超過28個，如果能數超過28個代表你一直重複數同樣的東西，或是根本搞不清楚自己在幹嘛，就不適用於這種方法，再強調一次，這種方法仍是需要一定的解題水平。</p>
@@ -270,9 +269,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/08/17/study_module/">
+                      <a href="/2021/08/19/x%5E5+y%5E5/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">我不是天才，但我偏執的像天才</span>
+                        <span class="hidden-mobile">遞迴迭代式的妙用！秒殺二元高次和的利器！</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -455,6 +454,45 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.4/es5/tex-svg.js" ></script>
+
+  
 
 
 

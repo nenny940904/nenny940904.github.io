@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nenny940904.github.io/2021/08/17/study_module/</loc>
+    <loc>https://nenny940904.github.io/2021/08/19/x^5+y^5/</loc>
     
-    <lastmod>2021-08-16</lastmod>
+    <lastmod>2021-08-18</lastmod>
     
   </url>
   
@@ -39,43 +39,29 @@
 
   <url>
     <loc>https://nenny940904.github.io/</loc>
-    <lastmod>2021-08-17</lastmod>
+    <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://nenny940904.github.io/tags/daily/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://nenny940904.github.io/tags/test/</loc>
-    <lastmod>2021-08-17</lastmod>
+    <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nenny940904.github.io/tags/math/</loc>
-    <lastmod>2021-08-17</lastmod>
+    <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://nenny940904.github.io/tags/learn/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://nenny940904.github.io/tags/idea/</loc>
-    <lastmod>2021-08-17</lastmod>
+    <loc>https://nenny940904.github.io/tags/daily/</loc>
+    <lastmod>2021-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

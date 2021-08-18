@@ -229,9 +229,7 @@
             <h1 style="display: none">留言版註冊教學！說些什麼吧</h1>
             
             <div class="markdown-body">
-              <p>歡迎來到我的部落格！我是Kenny，您好。<br>此篇為測試用的留言板，您可以試著在下方輸入寫什麼或說出你想說的話。</p>
-<span id="more"></span>
-<p>底下為使用教學：</p>
+              <p>歡迎來到我的部落格！我是Kenny，您好。<br>此篇為測試用的留言板，您可以試著在下方輸入寫什麼或說出你想說的話。<br><span id="more"></span><br>底下為使用教學：</p>
 <h2 id="登入帳號"><a href="#登入帳號" class="headerlink" title="登入帳號"></a>登入帳號</h2><p>留言板右上方有一個Login的按鈕，按下去可選擇使用Facebook或是Google登入。<br>接著需要註冊帳號，依序輸入名字、電子郵件、帳密，並勾選我不是機器人進行驗證。<br>登入成功後即可留言，盡情輸入吧！</p>
 
             </div>
@@ -439,6 +437,45 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.4/es5/tex-svg.js" ></script>
+
+  
 
 
 
