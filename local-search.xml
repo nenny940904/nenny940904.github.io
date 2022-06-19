@@ -4,27 +4,6 @@
   
   
   <entry>
-    <title>遞迴迭代式的妙用！秒殺二元高次和的利器！</title>
-    <link href="/2021/08/19/x%5E5+y%5E5/"/>
-    <url>/2021/08/19/x%5E5+y%5E5/</url>
-    
-    <content type="html"><![CDATA[<p>這篇文章主要是在介紹遞迴迭代式的應用，會有公式和範例提供練習。<br>題目可以做更進一步的延伸，且可以複習到一些乘法公式，是個不錯的題目！<br>有其他解法或想法能在下方留言，我會參考看看的。<br><span id="more"></span></p><h2 id="公式介紹"><a href="#公式介紹" class="headerlink" title="公式介紹"></a>公式介紹</h2><h3 id="遞迴迭代式"><a href="#遞迴迭代式" class="headerlink" title="遞迴迭代式"></a><center>遞迴迭代式</center></h3><script type="math/tex; mode=display">a^{n+2}+b^{n+2}=(a+b)(a^{n+1}+b^{n+1})-ab(a^n+b^n)</script><h3 id="二元四次和"><a href="#二元四次和" class="headerlink" title="二元四次和"></a><center>二元四次和</center></h3><script type="math/tex; mode=display">a^4+b^4=[(a+b)^2-2ab]^2-2(ab)^2</script><h3 id="二元立方和"><a href="#二元立方和" class="headerlink" title="二元立方和"></a><center>二元立方和</center></h3><script type="math/tex; mode=display">a^3+b^3=(a+b)(a^2-ab+b^2)=(a+b)^3-3ab(a+b)</script><h3 id="二元立方差"><a href="#二元立方差" class="headerlink" title="二元立方差"></a><center>二元立方差</center></h3><script type="math/tex; mode=display">a^3-b^3=(a-b)(a^2+ab+b^2)=(a-b)^3+3ab(a-b)</script><h3 id="二元完全立方和"><a href="#二元完全立方和" class="headerlink" title="二元完全立方和"></a><center>二元完全立方和</center></h3><script type="math/tex; mode=display">(a+b)^3=a^3+3a^2b+3ab^2+b^3=a^3+b^3+3ab(a+b)</script><h3 id="二元完全立方差"><a href="#二元完全立方差" class="headerlink" title="二元完全立方差"></a><center>二元完全立方差</center></h3><script type="math/tex; mode=display">(a-b)^3=a^3-3a^2b+3ab^2-b^3=a^3-b^3-3ab(a-b)</script><h2 id="例題"><a href="#例題" class="headerlink" title="例題"></a>例題</h2><h3 id="若x-y-3-quad-xy-2，則x-5-y-5"><a href="#若x-y-3-quad-xy-2，則x-5-y-5" class="headerlink" title="$$ 若x+y=3 \quad xy=2，則x^5+y^5=? $$"></a><center>$$ 若x+y=3 \quad xy=2，則x^5+y^5=? $$</center></h3><h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>看到這種指數大的不得了的題目，秒用遞迴迭代式分解。<br>關鍵是5次方看成3+2的次方，即可用n=3套入公式分解，即為：</p><script type="math/tex; mode=display">x^{3+2}+y^{3+2}=(x+y)(x^4+y^4)-xy(x^3+y^3)</script><p><script type="math/tex">(x^4+y^4)</script> 可用二元四次和分解， <script type="math/tex">(x^3+y^3)</script> 可用完全立方和分解，即為：</p><center>$$ (x+y)\{[(x+y)^2-2xy]^2-2(xy)^2\}-xy[(x+y)^3-3xy(x+y)] $$</center><p>整理完式子之後只需要瘋狂代數字答案就出來了，熟記公式後是不是很容易呢？即為：</p><center>$$ 3[(9-4)^2-8]-2(27-6*3) $$</center><p>經過四則運算後答案即為33，成功秒殺掉了這題</p><p><script type="math/tex">(x^6+y^6)</script> 這種更大次方的也能用遞迴迭代式來做，但計算量就不容小覷了！<br>如果有更快或更好的解法大家能踴躍的提供，我相信這題絕對不是唯一解。<br>感謝大家的觀看！</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>test</tag>
-      
-      <tag>math</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>如何看穿出題者思維？60秒教會你成為猜題高手【數格子】</title>
     <link href="/2021/08/07/how_many_squares/"/>
     <url>/2021/08/07/how_many_squares/</url>

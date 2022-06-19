@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nenny940904.github.io/2021/08/19/x^5+y^5/</loc>
-    
-    <lastmod>2021-08-18</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://nenny940904.github.io/google4987b05a65c1e10f.html</loc>
     
     <lastmod>2021-08-08</lastmod>
@@ -39,7 +32,7 @@
 
   <url>
     <loc>https://nenny940904.github.io/</loc>
-    <lastmod>2021-08-18</lastmod>
+    <lastmod>2022-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,21 +40,21 @@
   
   <url>
     <loc>https://nenny940904.github.io/tags/test/</loc>
-    <lastmod>2021-08-18</lastmod>
+    <lastmod>2022-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nenny940904.github.io/tags/math/</loc>
-    <lastmod>2021-08-18</lastmod>
+    <lastmod>2022-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nenny940904.github.io/tags/daily/</loc>
-    <lastmod>2021-08-18</lastmod>
+    <lastmod>2022-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
